@@ -12,6 +12,12 @@ public class ItemToPurchase {
 	int itemPrice;
 	int itemQuantity;
 	
+	public ItemToPurchase(String itemName, int itemPrice, int itemQuantity) {
+		this.itemName = itemName;
+		this.itemPrice = itemPrice;
+		this.itemQuantity = itemQuantity;
+	}
+	
 	
 	
 }
